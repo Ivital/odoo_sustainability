@@ -1,0 +1,87 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__co2_display
+msgid "CO2 ratio"
+msgstr "Коефіцієнт CO2"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/res_partner.py:0
+#: model:ir.ui.menu,name:sustainability_stock.menu_climatiq_api
+msgid "Climatiq API"
+msgstr "API Climatiq"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__co2_ratio
+msgid "Co2 Ratio"
+msgstr "Коефіцієнт CO2"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__destination
+msgid "Destination"
+msgstr "Призначення"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: sustainability_stock
+#: model:ir.actions.act_window,name:sustainability_stock.freight_route_computations_window_action
+#: model:ir.ui.menu,name:sustainability_stock.menu_freight_route_computations
+msgid "Freight Route Computations"
+msgstr "Розрахунки вантажних маршрутів"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Inventory"
+msgstr "Запаси"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__origin
+msgid "Origin"
+msgstr "Походження"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_tolerance
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_tolerance
+msgid "Tolerance"
+msgstr "Допуск"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_uncertainty_percentage
+msgid "Uncertainty"
+msgstr "Невизначеність"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__weight_unit
+msgid "Unit"
+msgstr "Одиниця"

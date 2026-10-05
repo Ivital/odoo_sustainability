@@ -12,3 +12,808 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_sustainability
 msgid "Sustainability"
 msgstr "Сталий розвиток"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+#: model:ir.model,name:sustainability.model_account_account
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_line_account_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Account"
+msgstr "Рахунок"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Accounting"
+msgstr "Бухгалтерський облік"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__action_plan_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__action_plan_ids
+msgid "Action Plan"
+msgstr "План дій"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.sustainability_action_plan_window_action
+#: model:ir.ui.menu,name:sustainability.sustainability_action_plan_menu
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_scenario_form
+msgid "Action Plans"
+msgstr "Плани дій"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__action_qty
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__action_qty
+msgid "Action Qty"
+msgstr "Кількість дії"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.sustainability_action_window_action
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__action_ids
+#: model:ir.ui.menu,name:sustainability.sustainability_action_menu
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_plan_form
+msgid "Actions"
+msgstr "Дії"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__active
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__active
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__active
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__active
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__activity_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__activity_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__activity_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__activity_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__activity_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__activity_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__activity_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Amount"
+msgstr "Сума"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach_characterization__approach_id
+msgid "Approach"
+msgstr "Підхід"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.approach_window_action
+#: model:ir.ui.menu,name:sustainability.menu_approach
+msgid "Approaches"
+msgstr "Підходи"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_form
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_plan_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_plan_form
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_scenario_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_scenario_form
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_line_balance
+msgid "Balance"
+msgstr "Баланс"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__budget
+msgid "Budget"
+msgstr "Бюджет"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__co2_value
+msgid "CO2 (kg)"
+msgstr "CO2 (кг)"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_move_line__carbon_balance
+msgid "CO2 Balance"
+msgstr "Баланс CO2"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_move_line__carbon_credit
+msgid "CO2 Credit"
+msgstr "Кредит CO2"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_move_line__carbon_debit
+msgid "CO2 Debit"
+msgstr "Дебет CO2"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_common_mixin.py:0
+#: model:ir.actions.act_window,name:sustainability.carbon_line_origin_action
+#: model:ir.ui.menu,name:sustainability.carbon_line_origin_graph_menu
+#: model:ir.ui.menu,name:sustainability.carbon_line_origin_menu
+msgid "Carbon Footprint"
+msgstr "Вуглецевий слід"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.carbon_factor_type_action
+#: model:ir.model.fields,field_description:sustainability.field_carbon_distribution_line__carbon_type
+msgid "Carbon Type"
+msgstr "Тип вуглецю"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.menu_nomenclature_category
+msgid "Categories"
+msgstr "Категорії"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__category
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__category
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__category_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Category"
+msgstr "Категорія"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.menu_approach_characterization
+msgid "Characterizations"
+msgstr "Характеристики"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__child_ids
+msgid "Child"
+msgstr "Дочірній"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__child_qty
+msgid "Child Qty"
+msgstr "Дочірня кількість"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_type__code
+msgid "Code"
+msgstr "Код"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__comment
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__comment
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__comment
+msgid "Comment"
+msgstr "Коментар"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__complexity
+msgid "Complexity"
+msgstr "Складність"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.menu_sustainability_configuration
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__contact_qty
+msgid "Contact Qty"
+msgstr "Кількість контактів"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__carbon_contributor_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__carbon_contributor_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__factor_contributor_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Contributor"
+msgstr "Учасник"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_res_country
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__country_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__country_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+msgid "Country"
+msgstr "Країна"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_distribution_line__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_type__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach_characterization__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_category__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_reporting__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__create_uid
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_distribution_line__create_date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__create_date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__create_date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__create_date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_type__create_date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__create_date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach_characterization__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_category__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_reporting__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__create_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__carbon_monetary_currency_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__carbon_monetary_currency_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__monetary_currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__carbon_database_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__carbon_database_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__factor_database_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Database"
+msgstr "База даних"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__carbon_date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__date
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.menu_decarbonisation
+msgid "Decarbonization"
+msgstr "Декарбонізація"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__descendant_ids
+msgid "Descendant"
+msgstr "Нащадок"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_type__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__description
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__description
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_category__description
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__description
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_distribution_line__display_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__display_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__display_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__display_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_type__display_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__display_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__display_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach_characterization__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_category__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_reporting__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__display_name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__distribution
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Distribution"
+msgstr "Розподіл"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Documents"
+msgstr "Документи"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.carbon_factor_contributor_action
+#: model:ir.ui.menu,name:sustainability.carbon_factor_contributor_menu
+msgid "Emission Factor Contributors"
+msgstr "Учасники формування коефіцієнтів викидів"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.carbon_factor_database_action
+#: model:ir.ui.menu,name:sustainability.carbon_factor_database_menu
+msgid "Emission Factor Databases"
+msgstr "Бази коефіцієнтів викидів"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.carbon_factor_type_menu
+msgid "Emission Factor Types"
+msgstr "Типи коефіцієнтів викидів"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.carbon_factor_action
+#: model:ir.ui.menu,name:sustainability.carbon_factor_graph_menu
+#: model:ir.ui.menu,name:sustainability.carbon_factor_menu
+#: model:ir.ui.menu,name:sustainability.menu_emission_factors
+msgid "Emission Factors"
+msgstr "Коефіцієнти викидів"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_factor_value_report
+#: model:ir.ui.menu,name:sustainability.carbon_factor_value_report_menu
+#: model_terms:ir.ui.view,arch_db:sustainability.view_carbon_factor_value_report_graph
+msgid "Emission Factors By Vintage"
+msgstr "Коефіцієнти викидів за роком випуску"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__end_date
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__end_date
+msgid "End Date"
+msgstr "Дата завершення"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__examples
+msgid "Examples"
+msgstr "Приклади"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__factor_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__factor_id
+msgid "Factor"
+msgstr "Коефіцієнт"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__message_follower_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__message_follower_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__message_follower_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__message_follower_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__message_follower_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__message_follower_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__message_follower_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__has_message
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__has_message
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__has_message
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__has_message
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__has_message
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__has_message
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__has_message
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__hierarchy
+msgid "Hierarchy"
+msgstr "Ієрархія"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__activity_exception_icon
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__activity_exception_icon
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__activity_exception_icon
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__activity_exception_icon
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__activity_exception_icon
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__activity_exception_icon
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__activity_exception_icon
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__image
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_tree
+msgid "Image"
+msgstr "Зображення"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_date
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Invoice Date"
+msgstr "Дата рахунка"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach_characterization__is_default
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature__is_default
+msgid "Is Default"
+msgstr "За замовчуванням"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__message_is_follower
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__message_is_follower
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__message_is_follower
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__message_is_follower
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__message_is_follower
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__message_is_follower
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__message_is_follower
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_line_journal_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Journal"
+msgstr "Журнал"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_account_move_line
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_line_id
+msgid "Journal Item"
+msgstr "Журнальна позиція"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_line_label
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Label"
+msgstr "Мітка"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+#: model:ir.model.fields.selection,name:sustainability.selection__account_account__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__account_account__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__carbon_mixin__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__carbon_mixin__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_category__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_category__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_product__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_product__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_supplierinfo__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_supplierinfo__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_template__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__product_template__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__res_company__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__res_company__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__res_country__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__res_country__carbon_out_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__res_partner__carbon_in_mode__manual
+#: model:ir.model.fields.selection,name:sustainability.selection__res_partner__carbon_out_mode__manual
+msgid "Manual"
+msgstr "Вручну"
+
+#. module: sustainability
+#: model:ir.model.fields.selection,name:sustainability.selection__sustainability_action__budget__medium
+#: model:ir.model.fields.selection,name:sustainability.selection__sustainability_action__complexity__medium
+#: model:ir.model.fields.selection,name:sustainability.selection__sustainability_action__reduction_potential__medium
+msgid "Medium"
+msgstr "Середній"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__message_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__message_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__message_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__message_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__message_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__message_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__message_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+#: model_terms:ir.ui.view,arch_db:sustainability.view_country_form
+msgid "Mode"
+msgstr "Режим"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_distribution_line__res_model
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__res_model
+msgid "Model"
+msgstr "Модель"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_account__model_name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_mixin__model_name
+#: model:ir.model.fields,field_description:sustainability.field_product_category__model_name
+#: model:ir.model.fields,field_description:sustainability.field_product_product__model_name
+#: model:ir.model.fields,field_description:sustainability.field_product_supplierinfo__model_name
+#: model:ir.model.fields,field_description:sustainability.field_product_template__model_name
+#: model:ir.model.fields,field_description:sustainability.field_res_company__model_name
+#: model:ir.model.fields,field_description:sustainability.field_res_country__model_name
+#: model:ir.model.fields,field_description:sustainability.field_res_partner__model_name
+#: model:ir.model.fields,field_description:sustainability.field_res_users__model_name
+msgid "Model Name"
+msgstr "Назва моделі"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Module"
+msgstr "Модуль"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__name
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach_characterization__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_category__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__name
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__name
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+msgid "Name"
+msgstr "Назва"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_category__nomenclature_id
+msgid "Nomenclature"
+msgstr "Номенклатура"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.nomenclature_window_action
+#: model:ir.ui.menu,name:sustainability.menu_nomenclature
+msgid "Nomenclatures"
+msgstr "Номенклатури"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_account__carbon_line_origin_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__carbon_line_origin_ids
+#: model:ir.model.fields,field_description:sustainability.field_product_category__carbon_line_origin_ids
+#: model:ir.model.fields,field_description:sustainability.field_product_product__carbon_line_origin_ids
+#: model:ir.model.fields,field_description:sustainability.field_product_template__carbon_line_origin_ids
+#: model:ir.model.fields,field_description:sustainability.field_res_partner__carbon_line_origin_ids
+#: model:ir.model.fields,field_description:sustainability.field_res_users__carbon_line_origin_ids
+msgid "Origins"
+msgstr "Походження"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.menu_approach_overview
+#: model:ir.ui.menu,name:sustainability.menu_nomenclature_overview
+msgid "Overview"
+msgstr "Огляд"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__parent_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__parent_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+msgid "Parent"
+msgstr "Батьківський"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__parent_path
+msgid "Parent Path"
+msgstr "Батьківський шлях"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_line_partner_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_distribution_line__percentage
+msgid "Percentage"
+msgstr "Відсоток"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+msgid "Posted"
+msgstr "Проведено"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+#: model_terms:ir.ui.view,arch_db:sustainability.view_country_form
+msgid "Purchases"
+msgstr "Закупівлі"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__quantity
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__rating_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_contributor__rating_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__rating_ids
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__rating_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__rating_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__rating_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_sub_category__rating_ids
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__rating_ids
+msgid "Ratings"
+msgstr "Рейтинги"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.menu_nomenclature_reporting
+#: model:ir.ui.menu,name:sustainability.menu_sustainability_reporting
+msgid "Reporting"
+msgstr "Звітність"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_distribution_line__res_model_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__res_model_id
+msgid "Res Model"
+msgstr "Модель ресурсу"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__res_id
+msgid "Res id"
+msgstr "ID ресурсу"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__root
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__root
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+msgid "Root"
+msgstr "Корінь"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_reporting__rule_order
+msgid "Rule Order"
+msgstr "Порядок правила"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+#: model_terms:ir.ui.view,arch_db:sustainability.view_country_form
+msgid "Sales"
+msgstr "Продажі"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__scenario_id
+msgid "Scenario"
+msgstr "Сценарій"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.sustainability_scenario_window_action
+#: model:ir.ui.menu,name:sustainability.sustainability_scenario_menu
+msgid "Scenarios"
+msgstr "Сценарії"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+#: model_terms:ir.ui.view,arch_db:sustainability.view_country_form
+msgid "Set"
+msgstr "Набір"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.action_sustainability_config
+#: model:ir.ui.menu,name:sustainability.menu_sustainability_config
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action_plan__start_date
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__move_state
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Status"
+msgstr "Статус"
+
+#. module: sustainability
+#: model:ir.ui.menu,name:sustainability.menu_nomenclature_sub_category
+msgid "Sub Categories"
+msgstr "Підкатегорії"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__signed_value
+msgid "Total"
+msgstr "Разом"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__type_id
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value_report__type_id
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Type"
+msgstr "Тип"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__uncertainty_percentage
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Uncertainty"
+msgstr "Невизначеність"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+msgid "UoM"
+msgstr "Од. вим."
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__uom_id
+msgid "Uom"
+msgstr "Од. вим."
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_database__url
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature__url
+msgid "Url"
+msgstr "URL"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__carbon_value
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__carbon_value
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_tree
+msgid "Value"
+msgstr "Значення"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__value_ids
+msgid "Value List"
+msgstr "Список значень"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_account__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_carbon_mixin__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_product_category__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_product_product__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_product_supplierinfo__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_product_template__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_res_company__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_res_country__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_res_partner__carbon_in_value_origin
+#: model:ir.model.fields,field_description:sustainability.field_res_users__carbon_in_value_origin
+msgid "Value origin"
+msgstr "Походження значення"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
+msgid "Values"
+msgstr "Значення"
