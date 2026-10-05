@@ -112,3 +112,23 @@ msgstr "Загальний кредит"
 #: model_terms:ir.ui.view,arch_db:sustainability_mis_builder.mis_co2_account_move_line_tree
 msgid "Total Debit"
 msgstr "Загальний дебет"
+
+#. module: sustainability_mis_builder
+#: model:ir.model,name:sustainability_mis_builder.model_mis_carbon_account_move_line
+msgid "MIS Carbon Account Line"
+msgstr "Рядок вуглецевого рахунку MIS"
+
+#. module: sustainability_mis_builder
+#: model:ir.model.fields,help:sustainability_mis_builder.field_mis_carbon_account_move_line__move_id
+msgid "The journal entry of this carbon line."
+msgstr "Журнальний запис цього вуглецевого рядка."
+
+#. module: sustainability_mis_builder
+#: model:ir.model.fields,help:sustainability_mis_builder.field_mis_carbon_account_move_line__move_line_id
+msgid "The journal item of this carbon line."
+msgstr "Журнальний запис цього вуглецевого рядка."
+
+#. module: sustainability_mis_builder
+#: model:ir.model.fields,help:sustainability_mis_builder.field_mis_carbon_account_move_line__journal_id
+msgid "The journal of this carbon line."
+msgstr "Журнал цього вуглецевого рядка."

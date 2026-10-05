@@ -2485,3 +2485,183 @@ msgstr "наприклад, прямі викиди від стаціонарн�
 #: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
 msgid "e.g. Electric Train"
 msgstr "напр. Електропоїзд"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_copy_mixin.py:0
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_mixin
+msgid "A mixin used to add carbon values on any model"
+msgstr "Міксин для додавання вуглецевих значень до будь-якої моделі"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_approach_characterization__is_default
+msgid ""
+"Allows defining a default characterization for the chosen approach for the "
+"default nomenclature. For example, for \"Energy\" -> \"Non-operated\""
+msgstr ""
+"Дає змогу визначити типову характеристику для вибраного підходу стандартної "
+"номенклатури. Наприклад, для «Енергія» -> «Неексплуатований»."
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_distribution_line
+msgid "Carbon Distribution Line"
+msgstr "Рядок розподілу вуглецю"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_factor_contributor
+msgid "Carbon Factor Contributor"
+msgstr "Учасник вуглецевого фактора"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_factor_database
+msgid "Carbon Factor Database"
+msgstr "База даних вуглецевих факторів"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_factor_type
+msgid "Carbon Factor Type"
+msgstr "Тип вуглецевого фактора"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_factor_value
+msgid "Carbon Factor Value"
+msgstr "Значення вуглецевого фактора"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_common_mixin
+msgid "Common Mixin for Shared Methods and Utils Fields"
+msgstr "Спільний міксин для спільних методів і службових полів"
+
+#. module: sustainability
+#: model:ir.model.constraint,message:sustainability.constraint_carbon_factor_value_not_unique_date_type_id
+msgid "Date and Carbon Factor Type should be a unique pair"
+msgstr "Дата й тип вуглецевого фактора мають утворювати унікальну пару"
+
+#. module: sustainability
+#: model:uom.category,name:sustainability.uom_categ_energy
+msgid "Energy"
+msgstr "Енергія"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature__name
+msgid ""
+"Examples: Carbon Balance, GHG Protocol, ISO/TR 14069, Regulatory Method"
+msgstr ""
+"Приклади: Вуглецевий баланс, GHG Protocol, ISO/TR 14069, Регуляторний метод"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_category__name
+msgid ""
+"Examples: Direct GHG emissions, Indirect emissions associated with energy"
+msgstr "Приклади: прямі викиди ПГ, непрямі викиди, пов’язані з енергією"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__name
+msgid ""
+"Examples: Direct emissions from fixed combustion sources, Upstream freight "
+"transport"
+msgstr ""
+"Приклади: прямі викиди від стаціонарних джерел згоряння, перевезення "
+"вантажів до підприємства"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_approach_characterization__name
+msgid "Examples: Operated, Non-operated, Supported, Non-operated, Unsupported"
+msgstr ""
+"Приклади: керований, некерований, підтримуваний, некерований, "
+"непідтримуваний"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_approach__name
+msgid "Examples: Physical control, Operational control, Share of capital"
+msgstr "Приклади: фізичний контроль, операційний контроль, частка капіталу"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_carbon_copy_mixin
+msgid "Mixin that allow to copy records with a new name"
+msgstr "Міксин, що дозволяє копіювати записи з новою назвою"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_reporting__rule_order
+msgid "Move items up/down"
+msgstr "Перемістити елементи вгору/вниз"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_sustainability_nomenclature_category
+msgid "Nomenclature Category"
+msgstr "Категорія номенклатури"
+
+#. module: sustainability
+#: model:uom.category,name:sustainability.uom_categ_passenger_per_km
+msgid "Passenger per kilometer"
+msgstr "Пасажир на кілометр"
+
+#. module: sustainability
+#: model:ir.model.constraint,message:sustainability.constraint_carbon_distribution_line_max_limit_percentage
+msgid "Percentage cannot be higher than 100%"
+msgstr "Відсоток не може перевищувати 100%"
+
+#. module: sustainability
+#: model:ir.model.constraint,message:sustainability.constraint_carbon_distribution_line_positive_percentage
+msgid "Percentage must be higher than zero"
+msgstr "Відсоток має бути більшим за нуль"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_sustainability_action
+msgid "Sustainability Action"
+msgstr "Дія сталого розвитку"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_sustainability_action_plan
+msgid "Sustainability Action Plan"
+msgstr "План дій зі сталого розвитку"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_sustainability_approach
+msgid "Sustainability Approach"
+msgstr "Підхід сталого розвитку"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_sustainability_nomenclature
+msgid "Sustainability Nomenclature"
+msgstr "Номенклатура сталого розвитку"
+
+#. module: sustainability
+#: model:ir.model,name:sustainability.model_sustainability_scenario
+msgid "Sustainability Scenario"
+msgstr "Сценарій сталого розвитку"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature__is_default
+msgid ""
+"To manage categories of the regulatory method (Energy, Non-Energy, "
+"Inputs...) guiding the characterizations (Physical control, Operational "
+"control...)"
+msgstr ""
+"Для керування категоріями регуляторного методу (Енергетика, Неенергетика, "
+"Вхідні ресурси...), що спрямовують характеристики (Фізичний контроль, "
+"Операційний контроль...)."
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__ghg_view_mode
+msgid "Toggle to show GHG details"
+msgstr "Перемикач показу деталей ПГ"
+
+#. module: sustainability
+#: model:uom.category,name:sustainability.uom_categ_weight_per_km
+msgid "Weight per kilometer"
+msgstr "Вага на кілометр"
+
+#. module: sustainability
+#: model:res.country.group,name:sustainability.world
+msgid "World"
+msgstr "Світ"
+
+#. module: sustainability
+#: model:uom.uom,name:sustainability.uom_cubic_meter_of_natural_gas
+msgid "m³ of natural gas"
+msgstr "м³ природного газу"

@@ -287,3 +287,8 @@ msgstr "Виберіть коефіцієнт викидів"
 #: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_remote_work_carbon_cronjob_active
 msgid "Remote Work Cronjob Active"
 msgstr "Cron-завдання віддаленої роботи активне"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model,name:sustainability_employee_commuting.model_carbon_hr_commuting
+msgid "Carbon Employee Commuting"
+msgstr "Вуглецевий слід поїздок працівників"

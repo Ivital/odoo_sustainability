@@ -339,3 +339,23 @@ msgstr "Виберіть товар для низхідного вантажно
 #: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
 msgid "Select the product for upstream freight transport."
 msgstr "Виберіть товар для висхідного вантажного перевезення."
+
+#. module: sustainability_stock
+#: model:ir.model,name:sustainability_stock.model_carbon_line_mixin
+msgid "Carbon Line Mixin"
+msgstr "Міксин рядка вуглецю"
+
+#. module: sustainability_stock
+#: model:ir.model,name:sustainability_stock.model_carbon_line_origin
+msgid "Carbon Line Origin"
+msgstr "Походження вуглецевого рядка"
+
+#. module: sustainability_stock
+#: model:ir.model,name:sustainability_stock.model_sustainability_stock_freight_computation
+msgid "Freight Computation"
+msgstr "Розрахунок фрахту"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,help:sustainability_stock.field_res_company__carbon_freight_max_delivery_count
+msgid "Specify the maximum number of deliveries to process."
+msgstr "Укажіть максимальну кількість доставок для обробки."
