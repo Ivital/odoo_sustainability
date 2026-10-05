@@ -79,3 +79,17 @@ msgstr "Інформація постачальника"
 #: model_terms:ir.ui.view,arch_db:sustainability_purchase.purchase_order_form
 msgid "Unlock co2"
 msgstr "Розблокувати CO2"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,help:sustainability_purchase.field_purchase_order_line__carbon_debt
+msgid ""
+"A positive value means that your system's debt grows, a negative value means"
+" it shrinks"
+msgstr ""
+"Додатне значення означає, що заборгованість у системі зростає, від'ємне — що"
+" вона зменшується"
+
+#. module: sustainability_purchase
+#: model:ir.actions.server,name:sustainability_purchase.cron_initial_carbon_compute_res_partner_ir_actions_server
+msgid "Initial carbon compute for res.partner"
+msgstr "Початкове обчислення вуглецю для res.partner"

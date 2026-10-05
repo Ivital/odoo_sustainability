@@ -1932,3 +1932,556 @@ msgstr "Дата валютування"
 #: model:ir.model.fields,field_description:sustainability.field_sustainability_scenario__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_form
+msgid "<span class=\"o_stat_text\">Scenarios</span>"
+msgstr "<span class=\"o_stat_text\">Сценарії</span>"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.report_invoice_document
+msgid ""
+"<strong>\n"
+"                            CO\n"
+"                            <sub>2</sub>\n"
+"                            Equivalent:\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            Еквівалент CO\n"
+"                            <sub>2</sub>:\n"
+"                        </strong>"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_account_move_line__carbon_debt
+#: model:ir.model.fields,help:sustainability.field_carbon_line_mixin__carbon_debt
+msgid ""
+"A positive value means that your system's debt grows, a negative value means"
+" it shrinks"
+msgstr ""
+"Додатне значення означає, що заборгованість у системі зростає, від'ємне — що"
+" вона зменшується"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Allow users to display CO2e in MIS reports"
+msgstr "Дозволити користувачам показувати CO₂e у звітах MIS"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.approach_characterization_window_action
+msgid "Approach Characterizations"
+msgstr "Характеристики підходу"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Assets Management"
+msgstr "Керування активами"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid ""
+"Assets Management <i class=\"fa fa-building-o small ml-2\" "
+"title=\"Enterprise\"/>"
+msgstr ""
+"Керування активами <i class=\"fa fa-building-o small ml-2\" "
+"title=\"Enterprise\"/>"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_move_line__carbon_is_date_locked
+msgid "Carbon Is Date Locked"
+msgstr "Дата вуглецю заблокована"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__chart_of_account_qty
+msgid "Chart Of Account Qty"
+msgstr "Кількість планів рахунків"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid ""
+"Compute CO2e of your employee depending on their commuting transport habit"
+msgstr ""
+"Обчислювати CO2e працівника залежно від його звичок щодо поїздок на роботу"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Compute and display CO2e for your assets"
+msgstr "Обчислювати та показувати CO₂e для ваших активів"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Compute and display CO2e for your assets (OCA)"
+msgstr "Обчислювати та показувати CO₂e для ваших активів (OCA)"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Compute and display CO2e for your expense reports"
+msgstr "Обчислювати й показувати CO₂e у звітах про витрати"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Compute and display CO2e in inventory"
+msgstr "Обчислювати та показувати CO₂e у запасах"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Compute and display CO2e values directly in purchase orders"
+msgstr "Обчислювати та показувати CO₂e безпосередньо в замовленнях закупівлі"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Default CO2e inbound factor"
+msgstr "Коефіцієнт вхідних CO₂e за замовчуванням"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Default CO2e outbound factor"
+msgstr "Коефіцієнт вихідних CO₂e за замовчуванням"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Default data uncertainty value"
+msgstr "Значення невизначеності даних за замовчуванням"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Display CO2e in expense reports"
+msgstr "Показувати CO₂e у звітах про витрати"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Display CO2e values in Point of Sale receipts"
+msgstr "Показувати значення CO₂e у чеках точки продажу"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Display CO2e values in eCommerce products"
+msgstr "Показувати значення CO₂e у товарах eCommerce"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Display CO2e values in products printed labels"
+msgstr "Показувати значення CO₂e на друкованих етикетках товарів"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
+msgid "Do you really want to erase the precision value?"
+msgstr "Ви справді хочете стерти значення точності?"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_reporting__emission_factor_category_id
+msgid "Emission Factor Category"
+msgstr "Категорія коефіцієнта викидів"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_nomenclature_reporting__emission_factor_type_id
+msgid "Emission Factor Type"
+msgstr "Тип коефіцієнта викидів"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.carbon_factor_action_reporting
+msgid "Emission Factors Analysis"
+msgstr "Аналіз коефіцієнтів викидів"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.carbon_factor_value_report_action
+msgid "Emission Factors By Vintage Analysis"
+msgstr "Аналіз коефіцієнтів викидів за роком"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
+msgid "Erase the precision value"
+msgstr "Стерти значення точності"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Extend Sustainability Purchase module to manage delivery address"
+msgstr ""
+"Розширити модуль Sustainability Purchase для керування адресою доставки"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
+msgid "Extra Comments..."
+msgstr "Додаткові коментарі..."
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__activity_type_icon
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__activity_type_icon
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__activity_type_icon
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__activity_type_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__activity_type_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__activity_type_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__activity_type_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__has_invalid_value
+msgid "Has Invalid Value"
+msgstr "Має недійсне значення"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__activity_exception_icon
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__activity_exception_icon
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__activity_exception_icon
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__activity_exception_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__activity_exception_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__activity_exception_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__activity_exception_icon
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__message_needaction
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__message_needaction
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__message_needaction
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__message_needaction
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__message_needaction
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__message_needaction
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__message_needaction
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__message_has_error
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__message_has_sms_error
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__message_has_error
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__message_has_sms_error
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__message_has_error
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__message_has_sms_error
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__message_has_error
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__message_has_sms_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__message_has_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__message_has_sms_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__message_has_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__message_has_sms_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__message_has_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__message_has_sms_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__message_has_error
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Invoice document footer"
+msgstr "Підвал документа рахунка"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_account_move_line__is_carbon_positive
+msgid "Is Carbon Positive"
+msgstr "Є вуглецево-позитивним"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__is_carbon_value_computed
+msgid "Is Carbon Value Computed"
+msgstr "Значення вуглецю обчислено"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__is_ghg_detailed_value
+msgid "Is Ghg Detailed Value"
+msgstr "Є деталізованим значенням ПГ"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+msgid "Is Not Invoice Line"
+msgstr "Не є рядком рахунку"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Manage CO2e for your employee commuting"
+msgstr "Керувати CO₂e поїздок працівників"
+
+#. module: sustainability
+#: model_terms:ir.actions.act_window,help:sustainability.sustainability_action_plan_window_action
+msgid "No action plans yet !"
+msgstr "Планів дій ще немає!"
+
+#. module: sustainability
+#: model_terms:ir.actions.act_window,help:sustainability.sustainability_scenario_window_action
+msgid "No scenarios yet !"
+msgstr "Сценарії ще відсутні!"
+
+#. module: sustainability
+#: model_terms:ir.actions.act_window,help:sustainability.carbon_line_origin_action
+msgid "No sources of emission yet !"
+msgstr "Ще немає джерел викидів!"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.nomenclature_category_window_action
+msgid "Nomenclature Categories"
+msgstr "Категорії номенклатури"
+
+#. module: sustainability
+#: model:ir.actions.act_window,name:sustainability.nomenclature_sub_category_window_action
+msgid "Nomenclature Sub Categories"
+msgstr "Підкатегорії номенклатури"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__message_needaction_counter
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__message_needaction_counter
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__message_needaction_counter
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__message_needaction_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__message_needaction_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__message_needaction_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__message_needaction_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__message_has_error_counter
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__message_has_error_counter
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__message_has_error_counter
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__message_has_error_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__message_has_error_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__message_has_error_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__message_has_error_counter
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__other_ghg_value
+msgid "Other GHG (kgCO2e)"
+msgstr "Інші ПГ (кг CO₂e)"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Pick a date to lock"
+msgstr "Виберіть дату блокування"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Prevent CO2e computation for journal entries"
+msgstr "Заборонити обчислення CO₂e для записів журналу"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__product_categ_qty
+msgid "Product Categ Qty"
+msgstr "Кількість за категорією товару"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__product_supplierinfo_qty
+msgid "Product Supplierinfo Qty"
+msgstr "Кількість у інформації про постачальника товару"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+msgid "Product is not set"
+msgstr "Товар не задано"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_action__reduction_potential
+msgid "Reduction Potential"
+msgstr "Потенціал скорочення"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_sustainability_approach_characterization__regulatory_nomenclature_category_id
+msgid "Regulatory Nomenclature Category"
+msgstr "Категорія регуляторної номенклатури"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_action_plan_filter
+msgid "Search Action Plans"
+msgstr "Пошук планів дій"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_value_report_search
+msgid "Search Carbon Factor Value"
+msgstr "Пошук значення вуглецевого коефіцієнта"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_line_origin_filter
+msgid "Search Carbon Origin"
+msgstr "Пошук джерела вуглецю"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+msgid "Search Emission Factor"
+msgstr "Пошук коефіцієнта викидів"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.sustainability_scenario_filter
+msgid "Search Scenarios"
+msgstr "Сценарії пошуку"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show CO2e in Inventory"
+msgstr "Показувати CO₂e в запасах"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show CO2e in Point of Sale"
+msgstr "Показувати CO₂e у точці продажу"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show CO2e in Purchase"
+msgstr "Показувати CO₂e у закупівлі"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show CO2e in eCommerce"
+msgstr "Показувати CO₂e в eCommerce"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show CO2e in products printed labels"
+msgstr "Показувати CO2e на друкованих етикетках товарів"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show assets CO2e"
+msgstr "Показувати CO₂e активів"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show assets CO2e (OCA)"
+msgstr "Показувати CO₂e активів (OCA)"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Show delivery address in purchases"
+msgstr "Показувати адресу доставки в закупівлях"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__signed_uncertainty_value
+msgid "Signed Uncertainty Value"
+msgstr "Підписане значення невизначеності"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
+msgid ""
+"Some values miss a currency or a unit of measure <br/> Please fix them "
+"before using this factor."
+msgstr ""
+"Для деяких значень не вказано валюту або одиницю виміру <br/> Виправте їх "
+"перед використанням цього коефіцієнта."
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__activity_state
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__activity_state
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__activity_state
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__activity_state
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__activity_state
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__activity_state
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__activity_state
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor__supplierinfo_qty
+msgid "Supplierinfo Qty"
+msgstr "Кількість у даних постачальника"
+
+#. module: sustainability
+#: model_terms:ir.actions.act_window,help:sustainability.carbon_factor_action
+msgid "This is the emission factors dashboard"
+msgstr "Це панель коефіцієнтів викидів"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_account_account__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_carbon_mixin__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_product_category__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_product_product__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_product_supplierinfo__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_product_template__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_res_company__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_res_country__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_res_partner__carbon_in_use_distribution
+#: model:ir.model.fields,help:sustainability.field_res_users__carbon_in_use_distribution
+msgid "Todo: add help"
+msgstr "TODO: додати довідку"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.view_move_line_tree
+msgid "Total CO2 Uncertainty"
+msgstr "Загальна невизначеність CO₂"
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_factor_value__carbon_value
+msgid "Total not broken down (kgCO2)"
+msgstr "Загальна нерозподілена сума (kgCO2)"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__activity_exception_decoration
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__activity_exception_decoration
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__activity_exception_decoration
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__activity_exception_decoration
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__activity_exception_decoration
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__activity_exception_decoration
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__activity_exception_decoration
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: sustainability
+#: model:ir.model.fields,field_description:sustainability.field_carbon_line_origin__uncertainty_value
+msgid "Uncertainty Value"
+msgstr "Значення невизначеності"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Use Sutainability module with more applications !"
+msgstr "Використовуйте модуль Sustainability із додатковими застосунками!"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Use in MIS reports (OCA)"
+msgstr "Використовувати у звітах MIS (OCA)"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Used as a fallback value"
+msgstr "Використовується як резервне значення"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.res_config_settings_view_form
+msgid "Used as a fallback value for sales"
+msgstr "Використовується як резервне значення для продажів"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_filter
+msgid "Used in computation"
+msgstr "Використовується в обчисленні"
+
+#. module: sustainability
+#: model:ir.model.fields,help:sustainability.field_carbon_factor__website_message_ids
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_contributor__website_message_ids
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_database__website_message_ids
+#: model:ir.model.fields,help:sustainability.field_carbon_factor_value__website_message_ids
+#: model:ir.model.fields,help:sustainability.field_sustainability_action__website_message_ids
+#: model:ir.model.fields,help:sustainability.field_sustainability_action_plan__website_message_ids
+#: model:ir.model.fields,help:sustainability.field_sustainability_nomenclature_sub_category__website_message_ids
+#: model:ir.model.fields,help:sustainability.field_sustainability_scenario__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: sustainability
+#: model_terms:ir.actions.act_window,help:sustainability.carbon_factor_action
+msgid "You can now create your first emission factor<br>"
+msgstr "Тепер можна створити свій перший коефіцієнт викидів<br>"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.view_nomenclature_sub_category_form
+msgid "e.g. Direct emissions from fixed combustion sources"
+msgstr "наприклад, прямі викиди від стаціонарних джерел спалювання"
+
+#. module: sustainability
+#: model_terms:ir.ui.view,arch_db:sustainability.carbon_factor_form
+msgid "e.g. Electric Train"
+msgstr "напр. Електропоїзд"

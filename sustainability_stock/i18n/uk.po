@@ -278,3 +278,64 @@ msgstr "Допуск (км)"
 #: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__transport_mode
 msgid "Transport Mode"
 msgstr "Вид транспорту"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_stock_picking__carbon_freight_move_ids
+msgid "Carbon Freight Move"
+msgstr "Вуглецеве переміщення вантажу"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Carbon freight account"
+msgstr "Рахунок вуглецевих викидів перевезення"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Carbon freight journal"
+msgstr "Журнал вуглецевих викидів перевезення"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Default transport mode"
+msgstr "Режим транспорту за замовчуванням"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Freight account applicable to employee remote work"
+msgstr "Рахунок перевезення для віддаленої роботи працівника"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Freight journal applicable to employee remote work"
+msgstr "Журнал перевезення для віддаленої роботи працівника"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Insert the uncertainty percentage related to freight emissions."
+msgstr "Введіть відсоток невизначеності, пов’язаний із викидами перевезення."
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Maximum distance corrected to match a mixed transition point."
+msgstr ""
+"Максимальну відстань скориговано відповідно до змішаної точки переходу."
+
+#. module: sustainability_stock
+#: model_terms:ir.actions.act_window,help:sustainability_stock.freight_route_computations_window_action
+msgid "No computations yet !"
+msgstr "Обчислень ще немає!"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.sustainability_stock_freight_computation_filter
+msgid "Search Freight Computations"
+msgstr "Пошук обчислень перевезення"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Select the product for downstream freight transport."
+msgstr "Виберіть товар для низхідного вантажного перевезення."
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Select the product for upstream freight transport."
+msgstr "Виберіть товар для висхідного вантажного перевезення."

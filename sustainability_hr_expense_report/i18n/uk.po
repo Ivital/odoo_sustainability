@@ -54,3 +54,12 @@ msgstr "Заблокувати CO2"
 #: model_terms:ir.ui.view,arch_db:sustainability_hr_expense_report.hr_expense_view_form
 msgid "Unlock co2"
 msgstr "Розблокувати CO2"
+
+#. module: sustainability_hr_expense_report
+#: model:ir.model.fields,help:sustainability_hr_expense_report.field_hr_expense__carbon_debt
+msgid ""
+"A positive value means that your system's debt grows, a negative value means"
+" it shrinks"
+msgstr ""
+"Додатне значення означає, що заборгованість у системі зростає, від'ємне — що"
+" вона зменшується"
