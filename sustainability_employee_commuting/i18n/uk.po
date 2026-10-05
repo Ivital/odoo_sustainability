@@ -50,3 +50,131 @@ msgstr "Працівник"
 #: model:ir.model.fields,field_description:sustainability_employee_commuting.field_hr_employee_public__has_location
 msgid "Has Location"
 msgstr "Має розташування"
+
+#. module: sustainability_employee_commuting
+#: model_terms:ir.ui.view,arch_db:sustainability_employee_commuting.view_employee_form_commuting
+msgid "Commuting"
+msgstr "Поїздки на роботу"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_commuting_carbon_cronjob_active
+msgid "Cron job active"
+msgstr "Cron-завдання активне"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_commuting_carbon_cronjob_active
+msgid "Cronjob active"
+msgstr "Cron-завдання активне"
+
+#. module: sustainability_employee_commuting
+#: model_terms:ir.ui.view,arch_db:sustainability_employee_commuting.res_config_settings_view_form
+msgid "Emission account"
+msgstr "Рахунок викидів"
+
+#. module: sustainability_employee_commuting
+#: model_terms:ir.ui.view,arch_db:sustainability_employee_commuting.res_config_settings_view_form
+msgid "Emission factor"
+msgstr "Коефіцієнт викидів"
+
+#. module: sustainability_employee_commuting
+#: model_terms:ir.ui.view,arch_db:sustainability_employee_commuting.res_config_settings_view_form
+msgid "Emission journal"
+msgstr "Журнал викидів"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_commuting_account_id
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_commuting_account_id
+msgid "Employee Commuting Account"
+msgstr "Рахунок поїздок працівників"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_commuting_carbon_factor_id
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_commuting_carbon_factor_id
+msgid "Employee Commuting Carbon Factor"
+msgstr "Вуглецевий коефіцієнт поїздок працівника"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_commuting_journal_id
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_commuting_journal_id
+msgid "Employee Commuting Journal"
+msgstr "Журнал поїздок працівників"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_remote_work_account_id
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_remote_work_account_id
+msgid "Employee Remote Work Account"
+msgstr "Рахунок віддаленої роботи працівника"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_bank_statement_line__employee_remote_work_carbon_date
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_move__employee_remote_work_carbon_date
+msgid "Employee Remote Work Carbon Date"
+msgstr "Дата вуглецевого сліду віддаленої роботи працівника"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_remote_work_carbon_factor_id
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_remote_work_carbon_factor_id
+msgid "Employee Remote Work Carbon Factor"
+msgstr "Вуглецевий коефіцієнт віддаленої роботи працівника"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_remote_work_journal_id
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_remote_work_journal_id
+msgid "Employee Remote Work Journal"
+msgstr "Журнал віддаленої роботи працівника"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_bank_statement_line__employee_commuting_carbon_date
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_move__employee_commuting_carbon_date
+msgid "Employee commuting date"
+msgstr "Дата поїздки працівника"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_bank_statement_line__is_employee_commuting_carbon
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_move__is_employee_commuting_carbon
+msgid "Employees' commuting carbon emissions"
+msgstr "Вуглецеві викиди від поїздок працівників"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_bank_statement_line__is_employee_remote_work_carbon
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_account_move__is_employee_remote_work_carbon
+msgid "Is Employee Remote Work Carbon"
+msgstr "Є вуглецем віддаленої роботи працівника"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_carbon_hr_commuting__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_carbon_hr_commuting__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sustainability_employee_commuting
+#: model_terms:ir.ui.view,arch_db:sustainability_employee_commuting.res_config_settings_view_form
+msgid "Pick a journal"
+msgstr "Виберіть журнал"
+
+#. module: sustainability_employee_commuting
+#: model_terms:ir.ui.view,arch_db:sustainability_employee_commuting.res_config_settings_view_form
+msgid "Pick an account"
+msgstr "Виберіть рахунок"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_company__employee_commuting_post_account_move_active
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_res_config_settings__employee_commuting_post_account_move_active
+msgid "Post account move when cron is finished"
+msgstr "Проводити бухгалтерське проведення після завершення cron"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_carbon_hr_commuting__carbon_factor_id
+msgid "Transport mean"
+msgstr "Вид транспорту"
+
+#. module: sustainability_employee_commuting
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_hr_employee__work_days_home
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_hr_employee_base__work_days_home
+#: model:ir.model.fields,field_description:sustainability_employee_commuting.field_hr_employee_public__work_days_home
+msgid "Work Days at Home"
+msgstr "Робочі дні вдома"

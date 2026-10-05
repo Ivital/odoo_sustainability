@@ -77,3 +77,38 @@ msgstr "Проведено"
 #: model:ir.model.fields,field_description:sustainability_mis_builder.field_mis_carbon_account_move_line__parent_state
 msgid "Status"
 msgstr "Статус"
+
+#. module: sustainability_mis_builder
+#: model:ir.model.fields,field_description:sustainability_mis_builder.field_mis_carbon_account_move_line__carbon_currency_id
+msgid "Carbon Currency"
+msgstr "Валюта вуглецю"
+
+#. module: sustainability_mis_builder
+#: model:ir.model.fields.selection,name:sustainability_mis_builder.selection__mis_carbon_account_move_line__parent_state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: sustainability_mis_builder
+#: model:ir.model.fields,field_description:sustainability_mis_builder.field_mis_carbon_account_move_line__move_id
+msgid "Journal Entry"
+msgstr "Бухгалтерське проведення"
+
+#. module: sustainability_mis_builder
+#: model:ir.model.fields,field_description:sustainability_mis_builder.field_mis_carbon_account_move_line__move_line_id
+msgid "Journal Items"
+msgstr "Проведення журналу"
+
+#. module: sustainability_mis_builder
+#: model_terms:ir.ui.view,arch_db:sustainability_mis_builder.mis_co2_account_move_line_tree
+msgid "Total Balance"
+msgstr "Загальний баланс"
+
+#. module: sustainability_mis_builder
+#: model_terms:ir.ui.view,arch_db:sustainability_mis_builder.mis_co2_account_move_line_tree
+msgid "Total Credit"
+msgstr "Загальний кредит"
+
+#. module: sustainability_mis_builder
+#: model_terms:ir.ui.view,arch_db:sustainability_mis_builder.mis_co2_account_move_line_tree
+msgid "Total Debit"
+msgstr "Загальний дебет"

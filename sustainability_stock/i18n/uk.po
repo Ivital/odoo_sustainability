@@ -85,3 +85,196 @@ msgstr "Невизначеність"
 #: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__weight_unit
 msgid "Unit"
 msgstr "Одиниця"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,help:sustainability_stock.field_res_company__carbon_freight_climatiq_api_url
+#: model:ir.model.fields,help:sustainability_stock.field_res_config_settings__carbon_freight_climatiq_api_url
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "API URL for accessing Climatiq services."
+msgstr "URL API для доступу до сервісів Climatiq."
+
+#. module: sustainability_stock
+#: model:ir.model.fields,help:sustainability_stock.field_res_company__carbon_freight_climatiq_api_key
+#: model:ir.model.fields,help:sustainability_stock.field_res_config_settings__carbon_freight_climatiq_api_key
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "API key for accessing Climatiq services."
+msgstr "Ключ API для доступу до сервісів Climatiq."
+
+#. module: sustainability_stock
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_company__carbon_freight_transport_mode__air
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_partner__carbon_freight_transport_mode__air
+msgid "Air"
+msgstr "Повітря"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__api_response
+msgid "Api Response"
+msgstr "Відповідь API"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_stock_picking__carbon_currency_id
+msgid "Carbon Currency"
+msgstr "Валюта вуглецю"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_account_id
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_account_id
+msgid "Carbon Freight Account"
+msgstr "Рахунок вуглецевих викидів перевезення"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_journal_id
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_journal_id
+msgid "Carbon Freight Journal"
+msgstr "Журнал вуглецевих викидів перевезення"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_stock_picking__carbon_line_origin_qty
+msgid "Carbon Line Origin Qty"
+msgstr "Кількість рядка джерела вуглецю"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_stock_picking__carbon_origin_child_ids
+msgid "Carbon Origin Child"
+msgstr "Дочірнє джерело вуглецю"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_stock_picking__carbon_origin_child_qty
+msgid "Carbon Origin Child Qty"
+msgstr "Кількість дочірнього джерела вуглецю"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_uncertainty_percentage
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Carbon Uncertainty Percentage"
+msgstr "Відсоток невизначеності вуглецю"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_climatiq_api_key
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Climatiq API Key"
+msgstr "Ключ API Climatiq"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_climatiq_api_url
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Climatiq API URL"
+msgstr "URL API Climatiq"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_transport_mode
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_transport_mode
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_partner__carbon_freight_transport_mode
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_users__carbon_freight_transport_mode
+msgid "Default Transport Mode"
+msgstr "Типовий вид транспорту"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__error_message
+msgid "Error Message"
+msgstr "Повідомлення про помилку"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_max_delivery_count
+msgid "Max Deliveries to Process"
+msgstr "Максимум доставок для обробки"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_max_delivery_count
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Max deliveries to process"
+msgstr "Максимум доставок для обробки"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_product_downstream
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_product_downstream
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Product for Downstream Freight"
+msgstr "Товар для низхідного перевезення"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_company__carbon_freight_product_upstream
+#: model:ir.model.fields,field_description:sustainability_stock.field_res_config_settings__carbon_freight_product_upstream
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Product for Upstream Freight"
+msgstr "Товар для висхідного перевезення"
+
+#. module: sustainability_stock
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_company__carbon_freight_transport_mode__rail
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_partner__carbon_freight_transport_mode__rail
+msgid "Rail"
+msgstr "Залізниця"
+
+#. module: sustainability_stock
+#: model:ir.actions.server,name:sustainability_stock.action_recompute_carbon_freight_picking
+msgid "Re-compute CO2"
+msgstr "Перерахувати CO2"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__request_payload
+msgid "Request Payload"
+msgstr "Корисне навантаження запиту"
+
+#. module: sustainability_stock
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_company__carbon_freight_transport_mode__road
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_partner__carbon_freight_transport_mode__road
+msgid "Road"
+msgstr "Автодорога"
+
+#. module: sustainability_stock
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_company__carbon_freight_transport_mode__sea
+#: model:ir.model.fields.selection,name:sustainability_stock.selection__res_partner__carbon_freight_transport_mode__sea
+msgid "Sea"
+msgstr "Море"
+
+#. module: sustainability_stock
+#: model:ir.model.fields,help:sustainability_stock.field_res_company__carbon_freight_transport_mode
+#: model:ir.model.fields,help:sustainability_stock.field_res_config_settings__carbon_freight_transport_mode
+#: model:ir.model.fields,help:sustainability_stock.field_res_partner__carbon_freight_transport_mode
+#: model:ir.model.fields,help:sustainability_stock.field_res_users__carbon_freight_transport_mode
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Select the default mode of transportation for freight orders."
+msgstr "Виберіть типовий вид транспорту для вантажних замовлень."
+
+#. module: sustainability_stock
+#: model:ir.model.fields,help:sustainability_stock.field_res_config_settings__carbon_freight_max_delivery_count
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Specify the maximum number of deliveries to process at once."
+msgstr "Укажіть максимальну кількість доставок для одночасної обробки."
+
+#. module: sustainability_stock
+#: model:ir.model.fields,field_description:sustainability_stock.field_account_bank_statement_line__carbon_freight_picking_id
+#: model:ir.model.fields,field_description:sustainability_stock.field_account_move__carbon_freight_picking_id
+#: model:ir.model.fields,field_description:sustainability_stock.field_carbon_line_origin__move_carbon_freight_picking_id
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.carbon_line_origin_filter_inherit
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.carbon_line_origin_tree_inherit
+msgid "Stock Transfer"
+msgstr "Складське переміщення"
+
+#. module: sustainability_stock
+#: model_terms:ir.ui.view,arch_db:sustainability_stock.res_config_settings_view_form
+msgid "Tolerance (km)"
+msgstr "Допуск (км)"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/res_partner.py:0
+#: model:ir.model.fields,field_description:sustainability_stock.field_sustainability_stock_freight_computation__transport_mode
+msgid "Transport Mode"
+msgstr "Вид транспорту"

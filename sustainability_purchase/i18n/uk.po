@@ -1,0 +1,81 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:14+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order_line__carbon_uncertainty_value
+msgid "CO2 Uncertainty"
+msgstr "Невизначеність CO2"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order_line__carbon_data_uncertainty_percentage
+msgid "CO2 Uncertainty %"
+msgstr "Невизначеність CO2, %"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order__carbon_currency_id
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order_line__carbon_currency_id
+msgid "Carbon Currency"
+msgstr "Валюта вуглецю"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order_line__carbon_is_locked
+msgid "Carbon Is Locked"
+msgstr "Вуглець заблоковано"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order_line__carbon_origin_json
+msgid "Carbon Origin Json"
+msgstr "JSON джерела вуглецю"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order_line__carbon_origin_ids
+msgid "Carbon value origin details"
+msgstr "Деталі джерела значення вуглецю"
+
+#. module: sustainability_purchase
+#: model_terms:ir.ui.view,arch_db:sustainability_purchase.product_supplierinfo_form_view
+#: model_terms:ir.ui.view,arch_db:sustainability_purchase.sustainability_product_supplierinfo_tree_view
+msgid "Emission Factor"
+msgstr "Коефіцієнт викидів"
+
+#. module: sustainability_purchase
+#: model_terms:ir.ui.view,arch_db:sustainability_purchase.purchase_order_form
+msgid "Lock co2"
+msgstr "Заблокувати CO2"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_carbon_line_origin__purchase_line_id
+msgid "Purchase Line"
+msgstr "Рядок закупівлі"
+
+#. module: sustainability_purchase
+#: model:ir.actions.server,name:sustainability_purchase.action_recompute_carbon_purchase_order
+msgid "Re-compute CO2"
+msgstr "Перерахувати CO2"
+
+#. module: sustainability_purchase
+#: model_terms:ir.ui.view,arch_db:sustainability_purchase.purchase_order_form
+msgid "See CO2 value origin"
+msgstr "Переглянути джерело значення CO2"
+
+#. module: sustainability_purchase
+#: model:ir.model.fields,field_description:sustainability_purchase.field_purchase_order_line__carbon_supplier_id
+msgid "Supplier Info"
+msgstr "Інформація постачальника"
+
+#. module: sustainability_purchase
+#: model_terms:ir.ui.view,arch_db:sustainability_purchase.purchase_order_form
+msgid "Unlock co2"
+msgstr "Розблокувати CO2"
