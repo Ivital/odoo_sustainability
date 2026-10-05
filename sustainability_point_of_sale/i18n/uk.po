@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model,name:sustainability_point_of_sale.model_carbon_factor
 msgid "Carbon Emission Factor"
 msgstr "Фактор викидів вуглецю"
+
+#. module: sustainability_point_of_sale
+#. odoo-javascript
+#: code:addons/sustainability_point_of_sale/static/src/xml/order_receipt.xml:0
+msgid "1 Ͼ = 1 kgCO2e"
+msgstr "1 Ͼ = 1 кгCO2e"

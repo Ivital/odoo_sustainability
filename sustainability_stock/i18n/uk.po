@@ -359,3 +359,27 @@ msgstr "Розрахунок фрахту"
 #: model:ir.model.fields,help:sustainability_stock.field_res_company__carbon_freight_max_delivery_count
 msgid "Specify the maximum number of deliveries to process."
 msgstr "Укажіть максимальну кількість доставок для обробки."
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+msgid "Carbon Computation Error"
+msgstr "Помилка обчислення вуглецю"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+msgid "Climatiq API key"
+msgstr "Ключ API Climatiq"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/carbon_line_mixin.py:0
+msgid "Freight transport"
+msgstr "Вантажні перевезення"
+
+#. module: sustainability_stock
+#. odoo-python
+#: code:addons/sustainability_stock/models/stock_picking.py:0
+msgid "Transport mode"
+msgstr "Вид транспорту"

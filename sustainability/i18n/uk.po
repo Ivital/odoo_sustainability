@@ -2665,3 +2665,169 @@ msgstr "Світ"
 #: model:uom.uom,name:sustainability.uom_cubic_meter_of_natural_gas
 msgid "m³ of natural gas"
 msgstr "м³ природного газу"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "%s lines couldn't be recomputed"
+msgstr "%s рядків не вдалося перерахувати"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/sustainability_action.py:0
+#: code:addons/sustainability/models/sustainability_scenario.py:0
+msgid "Action Plans for"
+msgstr "Плани дій для"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/sustainability_action_plan.py:0
+#: code:addons/sustainability/models/sustainability_scenario.py:0
+msgid "Actions for"
+msgstr "Дії для"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_common_mixin.py:0
+msgid "Button %s is missing required fields"
+msgstr "У кнопці %s відсутні обов’язкові поля"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_common_mixin.py:0
+msgid "Carbon Footprint for"
+msgstr "Вуглецевий слід для"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "Carbon Footprint for %s"
+msgstr "Вуглецевий слід для %s"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "Carbon on invoice"
+msgstr "Вуглець у рахунку"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "Check server logs for more details"
+msgstr "Перевірте журнали сервера для подробиць"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "Company fallback"
+msgstr "Резервне значення компанії"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "Computation made on %s"
+msgstr "Обчислення виконано для %s"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_factor.py:0
+msgid "Distribution values must sum up to 1 (current value: %s)"
+msgstr "Сума значень розподілу має дорівнювати 1 (поточне значення: %s)"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_common_mixin.py:0
+msgid "Field %s is used by multiple buttons"
+msgstr "Поле %s використовується кількома кнопками"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "Manually set on %s by %s"
+msgstr "Вручну встановлено %s користувачем %s"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+msgid "Missing carbon factor for %s (carbon type: %s)"
+msgstr "Відсутній вуглецевий коефіцієнт для %s (тип вуглецю: %s)"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_common_mixin.py:0
+#: code:addons/sustainability/models/carbon_mixin.py:0
+msgid "Model %s not found"
+msgstr "Модель %s не знайдено"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+msgid "No fallback found for this record (company value will be used instead)"
+msgstr ""
+"Для цього запису не знайдено резервного значення (буде використано значення "
+"компанії)"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_factor.py:0
+msgid "Please enter all the required type for the following date (%s)"
+msgstr "Введіть усі обов’язкові типи для такої дати (%s)"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/sustainability_action.py:0
+msgid "Scenario for"
+msgstr "Сценарій для"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_factor.py:0
+msgid "Some factors are missing in distribution (ids: %s)"
+msgstr "У розподілі відсутні деякі коефіцієнти (ID: %s)"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_line_mixin.py:0
+msgid "Supplier info"
+msgstr "Інформація постачальника"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_factor.py:0
+msgid ""
+"The factor count is different from the distribution keys count (factor "
+"count: %s, keys count: %s)"
+msgstr ""
+"Кількість коефіцієнтів відрізняється від кількості ключів розподілу "
+"(коефіцієнтів: %s, ключів: %s)"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_mixin.py:0
+msgid ""
+"The total percentage of distribution lines must be equal to 100% (for carbon"
+" `in`)"
+msgstr ""
+"Загальний відсоток рядків розподілу має дорівнювати 100% (для вуглецю `in`)"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_factor.py:0
+msgid ""
+"You can not change the compute method if some values miss currency/unit of "
+"measure"
+msgstr ""
+"Не можна змінити метод обчислення, якщо для деяких значень відсутня "
+"валюта/одиниця вимірювання"
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_factor.py:0
+msgid "You can only select either a Country or a Country Group, not both."
+msgstr "Можна вибрати або країну, або групу країн, але не обидва."
+
+#. module: sustainability
+#. odoo-python
+#: code:addons/sustainability/models/carbon_factor.py:0
+msgid "_get_values_at_date: No value found for the following factor: %s"
+msgstr "_get_values_at_date: не знайдено значення для такого коефіцієнта: %s"
