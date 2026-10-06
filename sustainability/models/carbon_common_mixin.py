@@ -17,12 +17,15 @@ class CarbonCommonMixin(models.AbstractModel):
     def _generate_action(
         self,
         model: str,
-        title: str = _("Carbon Footprint for"),
+        title: str | None = None,
         ids: list[int] | None = None,
         domain: list | None = None,
     ) -> dict:
         """Generate an action dictionary for opening a new window in the Odoo UI."""
         self.ensure_one()
+
+        if title is None:
+            title = _("Carbon Footprint for")
 
         ids = ids or []
         domain = domain or []
